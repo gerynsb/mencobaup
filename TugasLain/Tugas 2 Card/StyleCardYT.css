@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background : hsl(300, 22%, 44%);
+    font-family: Helvetica, sans-serif, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card{ 
+    background: white;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 7px black;
+} 
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover; /* Digunakan untuuk mnyesuaikan background gambar spesifiknya cover untuk menutupi semuanya */
+    border-radius: 20px 20px 0 0;
+}
+
+.car1{
+    background-image: url(Assets/Images2.jpg);
+}
+
+.card p{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.card h2{
+    padding: 0 10px;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}

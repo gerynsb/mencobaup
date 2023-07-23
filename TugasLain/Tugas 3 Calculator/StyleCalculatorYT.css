@@ -1,0 +1,44 @@
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto; /* untuk penempatan text */
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);/* Membuat shadow */
+}
+
+#display{
+    text-align: right;
+    height: 70px; /* Mengatur jarak textnya dari box shadow top */
+    line-height: 70px;
+    padding : 16px 8px; 
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* fr artinya fraction */
+}
+
+.buttons > div{
+    border-right: 1px solid #999;
+    border-top: 1px solid #999;
+}
+
+.button{
+    border : 0.5px solid #999;
+    line-height: 100px; /* Mengatur jarak antar button */
+    text-align: center; /*Membuat button menjadi center  */
+    font-size: 25px;
+    cursor: pointer; /* Digunakan untuk menegaskan kalau ini button bisa ditekan */
+}
+
+#equal{
+    background-color: #5555ff;
+    color: white    ;
+}
+
+.button:hover{ /* Digunakan untuk memberikan efek ditekan (hover) */
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
